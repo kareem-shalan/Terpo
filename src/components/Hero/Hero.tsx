@@ -10,7 +10,7 @@ export default function Hero({ }: HeroProps) {
         <>
             <div className='absolute top-0 left-0 w-full h-full '>
 
-                <div id='hero' className='min-h-screen relative '>
+                <div id='hero' className='min-h-screen relative  '>
                     <div className='absolute flex justify-start  items-center bg-linear-to-r from-[#492222] to-white/10 top-0 left-0 w-full h-full  '>
 
 
@@ -29,7 +29,7 @@ export default function Hero({ }: HeroProps) {
                                 designed for those who demand excellence in every
                                 curve.
                             </p>
-                            <div className='flex justify-start items-start gap-2'>
+                            <div className='flex justify-start items-start md:flex-row gap-2 flex-col'>
                                 <Link to={'/Cars'} className='cursor-pointer flex justify-center items-center w-[200px] bg-[#F20D0D] h-[50px] text-white rounded-2xl'>Browse Cars</Link>
                                 <button className='cursor-pointer w-[200px] shadow-2xl drop-shadow-2xl shadow-black bg-[#9CA3AF]/10 h-[50px] text-white rounded-2xl ring-1 ring-black/20'>Visit Showroom</button>
 
