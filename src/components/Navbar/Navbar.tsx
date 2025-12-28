@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { SearchBar } from '../Searchbar/Searchbar'
+import logo from 'public/iamges-cars/TerpoLogo-removebg-preview.png'
 
 export default function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -20,7 +21,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <Link to={'/home'} className='rounded-full overflow-hidden z-20 flex justify-center items-center' onClick={closeMobileMenu}>
-                    <img className='w-12 h-12 md:w-16 md:h-16' src="/public/iamges-cars/TerpoLogo-removebg-preview.png" alt="Terpo Logo" />
+                    <img className='w-12 h-12 md:w-16 md:h-16' src={logo} alt="Terpo Logo" />
                 </Link>
 
                 {/* Desktop Navigation Links */}
