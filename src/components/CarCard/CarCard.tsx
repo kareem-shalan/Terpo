@@ -21,6 +21,7 @@ interface CarCardProps {
 }
 export default function CarCard() {
     const [IndexCar, setIndexCar] = useState<number | null>(null)
+    const [ImageScale, setImageScale] = useState<number | null>(null)
     return (
         <>
             <section className='flex flex-wrap gap-4  justify-center items-center mt-30 mb-30 '>
@@ -41,11 +42,14 @@ transition-all duration-300 hover:scale-105
                             {/* image */}
                             <div className={`w-full h-full rounded-3xl overflow-hidden relative`}>
                                 <img
+                                onClick={() => setImageScale(index)}
+                                onMouseLeave={() => setImageScale(null)}
                                     src={car?.photos?.front}
                                     alt={car.model}
-                                    className={`w-full h-full object-cover transition-all duration-300 hover:scale-110
+                                    className={`w-full h-full object-cover transition-all duration-300
                                         
-            `}
+                                        ${ImageScale === null ? "" : ImageScale === index ?  " hover:scale-110" : "" }
+                                        `}
                                 />
 
                                 {IndexCar === car.id ? <span className='absolute top-5 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-sm'>New</span>
