@@ -27,13 +27,13 @@ export default function CarCard() {
 
                 {carsProductsData?.map((car, index) => (
                     <>
-                        <div key={car.id} 
-                        
-                        onClick={() => setIndexCar(index)}
-                        onMouseLeave={() => setIndexCar(null)}
-                        className={`flex 
+                        <div key={car.id}
+
+                            onClick={() => setIndexCar(index)}
+                            onMouseLeave={() => setIndexCar(null)}
+                            className={`flex 
                    flex-col max-w-[282px] h-[372px] rounded-3xl p-4  bg-[#000000]/40 justify-center items-center
- transition-all duration-300 hover:scale-110
+transition-all duration-300 hover:scale-105
 
                       ${IndexCar === null ? "" : IndexCar === index ? "" : "blur-sm"}
                    
