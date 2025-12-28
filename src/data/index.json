@@ -1,0 +1,776 @@
+{
+    "footerLinks": [
+        {
+            "title": "Financing",
+            "present": "0% APR",
+            "isActive": "Available",
+            "icon": "public/iamges-cars/iconFooter1.png"
+        },
+        {
+            "title": "Support",
+            "present": "24/7 ",
+            "isActive": "Assistance",
+            "icon": "public/iamges-cars/iconFooter2.png"
+        },
+        {
+            "title": "Delivery",
+            "present": "Nationwide ",
+            "isActive": "Shipping",
+            "icon": "public/iamges-cars/iconFooter3.png"
+        }
+    ],
+ 
+ "carsProducts": [
+    {
+      "id": 1,
+      "model": "Tesla Model S",
+      "description": "Luxury electric sedan with high performance and advanced technology.",
+      "role": "Electric Sedan",
+      "price": "89,990",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 2,
+      "model": "BMW M4",
+      "description": "High-performance sports coupe with aggressive design.",
+      "role": "Sports Car",
+      "price": "79,100",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 3,
+      "model": "Aston Martin DBX",
+      "description": "Luxury performance SUV with British elegance and power.",
+      "role": "Luxury SUV",
+      "price": "189,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 4,
+      "model": "Audi R8",
+      "description": "Supercar delivering extreme performance and premium design.",
+      "role": "Supercar",
+      "price": "158,600",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 5,
+      "model": "Alfa Romeo Giulia Quadrifoglio",
+      "description": "Italian sports sedan with Ferrari-derived V6 engine.",
+      "role": "Sports Sedan",
+      "price": "78,195",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 6,
+      "model": "Range Rover Sport",
+      "description": "Luxury SUV blending comfort and power.",
+      "role": "Premium SUV",
+      "price": "83,600",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 7,
+      "model": "Ram 1500 TRX",
+      "description": "Extreme performance pickup with supercharged V8 power.",
+      "role": "Off-road Truck",
+      "price": "71,690",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 8,
+      "model": "McLaren Artura",
+      "description": "Hybrid supercar combining electric efficiency with V6 power.",
+      "role": "Supercar",
+      "price": "237,500",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 9,
+      "model": "Ford Mustang",
+      "description": "Iconic American muscle car.",
+      "role": "Muscle Car",
+      "price": "55,000",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 10,
+      "model": "Chevrolet Camaro",
+      "description": "Bold muscle car with aggressive looks.",
+      "role": "Muscle Car",
+      "price": "45,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 11,
+      "model": "Ferrari 488 GTB",
+      "description": "Masterpiece of Italian speed and elegance.",
+      "role": "Supercar",
+      "price": "284,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 12,
+      "model": "Jeep Wrangler",
+      "description": "The ultimate off-road adventure vehicle.",
+      "role": "Off-road SUV",
+      "price": "35,000",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 13,
+      "model": "McLaren 720S",
+      "description": "Aerodynamic supercar with unmatched power.",
+      "role": "Supercar",
+      "price": "310,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 14,
+      "model": "Lotus Emira",
+      "description": "British sports car with mid-engine layout and stunning design.",
+      "role": "Sports Car",
+      "price": "93,900",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 15,
+      "model": "Bentley Flying Spur",
+      "description": "Ultra-luxury sedan with handcrafted interior and W12 power.",
+      "role": "Luxury Sedan",
+      "price": "214,600",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 16,
+      "model": "Tesla Model 3",
+      "description": "Affordable electric sedan with impressive range and technology.",
+      "role": "Electric Sedan",
+      "price": "42,990",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 17,
+      "model": "Cadillac CT5-V Blackwing",
+      "description": "American super sedan with manual transmission and V8 power.",
+      "role": "Sports Sedan",
+      "price": "94,590",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 18,
+      "model": "Mercedes-Benz S-Class",
+      "description": "Ultimate luxury sedan with cutting-edge technology.",
+      "role": "Luxury Sedan",
+      "price": "111,100",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 19,
+      "model": "Genesis G90",
+      "description": "Flagship luxury sedan with premium materials and technology.",
+      "role": "Luxury Sedan",
+      "price": "89,200",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 20,
+      "model": "Porsche Cayenne",
+      "description": "Sporty luxury SUV with exceptional performance.",
+      "role": "Premium SUV",
+      "price": "72,200",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 21,
+      "model": "Lincoln Navigator",
+      "description": "Full-size luxury SUV with spacious three-row seating.",
+      "role": "Luxury SUV",
+      "price": "79,585",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 22,
+      "model": "Mercedes-Benz Maybach GLS",
+      "description": "Ultra-luxury SUV with handcrafted details and opulent comfort.",
+      "role": "Luxury SUV",
+      "price": "175,900",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 23,
+      "model": "Aston Martin DB11",
+      "description": "British grand tourer with elegant design.",
+      "role": "Supercar",
+      "price": "205,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 24,
+      "model": "Dodge Challenger",
+      "description": "Powerful American muscle car with retro styling.",
+      "role": "Muscle Car",
+      "price": "32,345",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 25,
+      "model": "Bentley Continental GT",
+      "description": "Luxury grand tourer with handcrafted excellence.",
+      "role": "Luxury Coupe",
+      "price": "202,500",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 26,
+      "model": "Maserati Quattroporte",
+      "description": "Italian luxury sedan with sporty character.",
+      "role": "Luxury Sedan",
+      "price": "107,000",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 27,
+      "model": "Jaguar F-Type",
+      "description": "British sports car with stunning design.",
+      "role": "Sports Car",
+      "price": "73,400",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 28,
+      "model": "Ferrari SF90 Stradale",
+      "description": "Hybrid hypercar with 986 horsepower and plug-in technology.",
+      "role": "Supercar",
+      "price": "516,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 29,
+      "model": "GMC Hummer EV",
+      "description": "Electric super truck with extreme off-road capability and instant torque.",
+      "role": "Electric Truck",
+      "price": "87,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 30,
+      "model": "Chevrolet Corvette",
+      "description": "American sports car icon with mid-engine design.",
+      "role": "Sports Car",
+      "price": "65,895",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 31,
+      "model": "Volvo XC60",
+      "description": "Premium compact SUV with Scandinavian safety and design.",
+      "role": "Premium SUV",
+      "price": "43,895",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 32,
+      "model": "Audi Q8",
+      "description": "Luxury coupe-style SUV with quattro all-wheel drive.",
+      "role": "Luxury SUV",
+      "price": "71,500",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 33,
+      "model": "Porsche 718 Cayman GT4",
+      "description": "Track-focused mid-engine sports car with naturally aspirated power.",
+      "role": "Sports Car",
+      "price": "101,200",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 34,
+      "model": "Porsche Panamera",
+      "description": "Luxury four-door sports car with exceptional performance.",
+      "role": "Sports Sedan",
+      "price": "92,000",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 35,
+      "model": "Rivian R1S",
+      "description": "Electric adventure SUV with impressive range and off-road capability.",
+      "role": "Electric SUV",
+      "price": "78,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 36,
+      "model": "Jeep Grand Cherokee Trackhawk",
+      "description": "High-performance SUV with supercharged V8 and track capabilities.",
+      "role": "Off-road SUV",
+      "price": "90,000",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 37,
+      "model": "Genesis GV80",
+      "description": "Luxury SUV with elegant design and premium features.",
+      "role": "Luxury SUV",
+      "price": "56,700",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 38,
+      "model": "Ferrari F8 Tributo",
+      "description": "Mid-engine supercar with V8 turbocharged power.",
+      "role": "Supercar",
+      "price": "276,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 39,
+      "model": "Volvo XC90",
+      "description": "Premium three-row SUV with Scandinavian design.",
+      "role": "Premium SUV",
+      "price": "55,395",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 40,
+      "model": "Acura NSX",
+      "description": "Hybrid supercar with precision engineering.",
+      "role": "Supercar",
+      "price": "169,500",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 41,
+      "model": "Lexus GX 460",
+      "description": "Premium off-road luxury SUV with body-on-frame construction.",
+      "role": "Luxury SUV",
+      "price": "58,250",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 42,
+      "model": "Audi RS6 Avant",
+      "description": "High-performance wagon with supercar-level acceleration.",
+      "role": "Sports Sedan",
+      "price": "120,500",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 43,
+      "model": "Toyota GR Supra",
+      "description": "Legendary sports car with BMW-sourced inline-six engine.",
+      "role": "Sports Car",
+      "price": "43,540",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 44,
+      "model": "Honda Civic Type R",
+      "description": "High-performance hot hatch with track capabilities.",
+      "role": "Sports Car",
+      "price": "44,895",
+      "year": "2024",
+      "isNew": false,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 45,
+      "model": "Kia Telluride",
+      "description": "Award-winning three-row SUV with premium features.",
+      "role": "Premium SUV",
+      "price": "35,890",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 46,
+      "model": "Mazda CX-90",
+      "description": "Premium three-row SUV with inline-six engine and elegant design.",
+      "role": "Premium SUV",
+      "price": "39,595",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 47,
+      "model": "Toyota Supra",
+      "description": "Legendary sports car reborn with BMW engineering.",
+      "role": "Sports Car",
+      "price": "43,540",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 48,
+      "model": "Ford Lightning",
+      "description": "All-electric F-150 with massive power and towing capability.",
+      "role": "Electric Truck",
+      "price": "61,869",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 49,
+      "model": "Polestar 2",
+      "description": "Electric performance sedan with Scandinavian design.",
+      "role": "Electric Sedan",
+      "price": "48,400",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": 50,
+      "model": "Koenigsegg Jesko",
+      "description": "Ultimate track-focused hypercar with 1,600 horsepower.",
+      "role": "Supercar",
+      "price": "2,800,000",
+      "year": "2024",
+      "isNew": true,
+      "photos": {
+        "front": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop",
+        "back": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop",
+        "interior": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop"
+      }
+    }
+  ]
+
+}
