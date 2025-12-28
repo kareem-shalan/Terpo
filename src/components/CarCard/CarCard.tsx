@@ -19,7 +19,7 @@ interface CarCardProps {
         interior: string;
     };
 }
-export default function CarCard({ }: CarCardProps) {
+export default function CarCard() {
     const [IndexCar, setIndexCar] = useState<number | null>(null)
     return (
         <>
