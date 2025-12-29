@@ -188,10 +188,10 @@ export default function CarDetails() {
 
                             {/* Action Buttons */}
                             <div className='flex flex-col sm:flex-row gap-4 pt-4'>
-                                <button className='flex-1 h-[55px] bg-[#F20D0D] hover:bg-[#F20D0D]/80 text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#F20D0D]/30 flex items-center justify-center gap-2'>
+                                <Link to='/Contact' className='flex-1 h-[55px] bg-[#F20D0D] hover:bg-[#F20D0D]/80 text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#F20D0D]/30 flex items-center justify-center gap-2'>
                                     <Phone className='size-5' />
                                     Contact Dealer
-                                </button>
+                                </Link>
                                 <button className='flex-1 h-[55px] bg-[#CB9090]/50 hover:bg-[#CB9090]/70 text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 border border-[#CB9090]/50 flex items-center justify-center gap-2'>
                                     <Mail className='size-5' />
                                     Request Info
