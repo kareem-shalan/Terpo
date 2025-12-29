@@ -3,12 +3,9 @@ import { Home, ArrowLeft, Car, Search, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
-interface NotFoundPageProps {
-    title: string;
 
-}
 
-export default function NotFoundPage({ title }: NotFoundPageProps) {
+export default function NotFoundPage({  }: NotFoundPageProps) {
     const location = useLocation();
     const searchTitle = (location.state as { title?: string })?.title || '';
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
