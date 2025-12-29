@@ -4,6 +4,8 @@ import type React from "react"
 import { useState, useRef, useEffect, useMemo } from "react"
 import { Search, CircleDot } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import data from '../../data/index.json'
+import { useNavigate } from "react-router-dom"
 
 // Utility function to combine class names
 const cn = (...classes: (string | undefined | false | null)[]): string => {
@@ -11,15 +13,21 @@ const cn = (...classes: (string | undefined | false | null)[]): string => {
 }
 
 const SUGGESTIONS = [
-    "React",
-    "Vue",
-    "Angular",
-    "Next.js",
-    "Svelte",
-    "TailwindCSS",
-    "TypeScript",
-    "JavaScript",
-    "Node.js",
+    "BMW",
+    "Mercedes",
+    "Audi",
+    "Toyota",
+    "Nissan",
+    "Hyundai",
+    "Kia",
+    "Volkswagen",
+    "Ford",
+    "Chevrolet",
+    "Fiat",
+    "Renault",
+    "Peugeot",
+    "Citroën",
+    "Opel",
 ]
 
 const GooeyFilter = () => (
@@ -59,6 +67,8 @@ interface SearchBarProps {
     onSearch?: (query: string) => void
 }
 
+const {carsProducts} = data;
+
 const SearchBar = ({ placeholder = "Search...", onSearch }: SearchBarProps) => {
     const inputRef = useRef<HTMLInputElement>(null)
     const [isFocused, setIsFocused] = useState(false)
@@ -81,12 +91,27 @@ const SearchBar = ({ placeholder = "Search...", onSearch }: SearchBarProps) => {
         setSearchQuery(value)
 
         if (value.trim()) {
-            const filtered = SUGGESTIONS.filter((item) => item.toLowerCase().includes(value.toLowerCase()))
-            setSuggestions(filtered)
+            // Filter cars by model, brand (extracted from model), or role
+            const filtered = carsProducts.filter((car) => {
+                const searchLower = value.toLowerCase()
+                const modelLower = car.model.toLowerCase()
+                const brandMatch = SUGGESTIONS.some(brand => 
+                    modelLower.includes(brand.toLowerCase()) && brand.toLowerCase().includes(searchLower)
+                )
+                
+                return (
+                    modelLower.includes(searchLower) ||
+                    car.role.toLowerCase().includes(searchLower) ||
+                    brandMatch
+                )
+            })
+            // Limit to 8 suggestions for better UX
+            setSuggestions(filtered.slice(0, 8).map(car => car.model))
         } else {
             setSuggestions([])
         }
     }
+    const navigate = useNavigate()
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
@@ -94,6 +119,20 @@ const SearchBar = ({ placeholder = "Search...", onSearch }: SearchBarProps) => {
             onSearch(searchQuery)
             setIsAnimating(true)
             setTimeout(() => setIsAnimating(false), 1000)
+        }
+        // Navigate to first suggestion if available
+        if (suggestions.length > 0) {
+            navigate(`/car/${carsProducts.find(car => car.model.toLowerCase() === suggestions[0].toLowerCase())?.id}`)
+            setSearchQuery("")
+            setSuggestions([])
+            setIsFocused(false)
+        }
+
+        if (searchQuery.trim() && !suggestions.length) {
+            navigate(`/NotFoundPage`, { state: { title: searchQuery } , replace: true })
+            setSearchQuery("")
+            setSuggestions([])
+            setIsFocused(false)
         }
     }
 
@@ -381,6 +420,7 @@ const SearchBar = ({ placeholder = "Search...", onSearch }: SearchBarProps) => {
                     </motion.div>
                 )}
             </AnimatePresence>
+            
         </div>
     )
 }

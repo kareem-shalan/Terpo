@@ -6,6 +6,7 @@ import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
 import CarCard from "../components/CarCard/CarCard";
 import CarDetails from "../components/CarDetails/CarDetails";
+import NotFoundPage from "../components/NotFoundPage/NotFoundPage";
 
 const routes = createBrowserRouter(
     createRoutesFromElements(
@@ -18,7 +19,7 @@ const routes = createBrowserRouter(
             <Route path="Services" element={<Services />}></Route>
             <Route path="Contact" element={<Contact />}></Route>
             <Route path="About" element={<About />}></Route>
-
+            <Route path="*" element={<NotFoundPage />}></Route>
 
         </Route>
     )

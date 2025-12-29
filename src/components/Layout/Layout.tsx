@@ -1,6 +1,7 @@
 import Navbar from '../Navbar/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from '../Footer/Footer'
+import NotFoundPage from '../NotFoundPage/NotFoundPage'
 
 interface LayoutProps {
 
@@ -9,8 +10,8 @@ export default function Layout({ }: LayoutProps) {
     return (
         <>
             <Navbar />
-
-            <main className='min-h-screen mx-auto '>
+        
+            <main className='min-h-screen mx-auto  relative'>
 
                 <Outlet />
             </main>
