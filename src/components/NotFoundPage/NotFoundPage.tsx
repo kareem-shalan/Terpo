@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 
 
-export default function NotFoundPage({  }: NotFoundPageProps) {
+export default function NotFoundPage() {
     const location = useLocation();
     const searchTitle = (location.state as { title?: string })?.title || '';
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
