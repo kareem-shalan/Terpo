@@ -9,13 +9,12 @@ interface FooterProps {
 }
 
 
-
 export default function Footer() {
-    const footerLinksData: FooterProps[] = data?.footerLinks;
-    return (
+    const {footerLinks}:{footerLinks:FooterProps[]} = data;
+    return ( 
         <>
             <div className='flex flex-col md:flex-row    justify-around items-start md:items-center p-4 gap-2  bg-[#000000]/40  re    '>
-                {footerLinksData?.map((link) => (
+                {footerLinks?.map((link) => (
                     <div key={link.title} className='flex min-w-[250px] p-4 rounded-2xl  justify-start md:justify-center items-center'>
                         <span className='size-10 me-2 p-2 bg-white/10 rounded-full flex justify-center items-center'><img className='size-5' src={link.icon} alt={link.title} /></span>
 
