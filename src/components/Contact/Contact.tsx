@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, Linkedin, User, Code, Briefcase, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import MypPhoto from '/public/iamges-cars/myPhoto.jpg';
 
 interface ContactProps {
 
@@ -51,7 +52,7 @@ export default function Contact({ }: ContactProps) {
                         <div className='relative'>
                             <div className='absolute inset-0 bg-linear-to-r from-[#F20D0D] to-[#CB9090] rounded-full blur-3xl opacity-100 animate-pulse'></div>
                             <img
-                                src='/public/iamges-cars/myPhoto.jpg'
+                                src={MypPhoto}
                                 alt='Kareem Mohamed Ali'
                                 className='relative size-70  rounded-full object-cover border-4 border-[#CB9090]/50 shadow-2xl '
                             />
