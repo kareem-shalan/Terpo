@@ -4,19 +4,19 @@
             "title": "Financing",
             "present": "0% APR",
             "isActive": "Available",
-            "icon": "/public/iamges-cars/IconFooter1.png"
+            "icon": "/iamges-cars/IconFooter1.png"
         },
         {
             "title": "Support",
             "present": "24/7 ",
             "isActive": "Assistance",
-            "icon": "/public/iamges-cars/IconFooter2.png"
+            "icon": "/iamges-cars/IconFooter2.png"
         },
         {
             "title": "Delivery",
             "present": "Nationwide ",
             "isActive": "Shipping",
-            "icon": "/public/iamges-cars/IconFooter3.png"
+            "icon": "/iamges-cars/IconFooter3.png"
         }
     ],
  
