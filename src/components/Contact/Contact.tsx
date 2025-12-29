@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, Linkedin, User, Code, Briefcase, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import MypPhoto from '/public/iamges-cars/myPhoto.jpg';
+import Antigravity from '../AntigravityInner/AntigravityInner';
 
 interface ContactProps {
 
@@ -203,28 +204,21 @@ export default function Contact({ }: ContactProps) {
             </div>
 
             {/* Floating Particles Effect */}
-            <div className='fixed inset-0 overflow-hidden pointer-events-none z-0'>
-                {[...Array(8)].map((_, i) => (
-                    <motion.div
-                        key={i}
-                        className='absolute w-2 h-2 rounded-full bg-[#CB9090]/20'
-                        initial={{
-                            x: Math.random() * window.innerWidth,
-                            y: Math.random() * window.innerHeight,
-                            opacity: 0,
-                        }}
-                        animate={{
-                            y: [null, Math.random() * window.innerHeight],
-                            opacity: [0, 0.5, 0],
-                            scale: [0, 1, 0],
-                        }}
-                        transition={{
-                            duration: Math.random() * 3 + 2,
-                            repeat: Infinity,
-                            delay: Math.random() * 2,
-                        }}
-                    />
-                ))}
+            <div className='fixed inset-0 overflow-hidden pointer-events-none z-[-1]'>
+            
+
+
+<Antigravity
+    magnetRadius={9}
+    ringRadius={6}
+    count={700}
+    color="#ff2934"
+    autoAnimate={true}
+    particleShape='tetrahedron'
+   
+
+  />
+
             </div>
         </section>
     )

@@ -31,7 +31,7 @@ export default function Hero({ }: HeroProps) {
                             </p>
                             <div className='flex justify-start items-start md:flex-row gap-2 flex-col'>
                                 <Link to={'/Cars'} className='cursor-pointer flex justify-center items-center w-[200px] bg-[#F20D0D] h-[50px] text-white rounded-2xl'>Browse Cars</Link>
-                                <button className='cursor-pointer w-[200px] shadow-2xl drop-shadow-2xl shadow-black bg-[#9CA3AF]/10 h-[50px] text-white rounded-2xl ring-1 ring-black/20'>Visit Showroom</button>
+                                <Link to={'/Contact'} className='cursor-pointer  flex justify-center items-center w-[200px] shadow-2xl drop-shadow-2xl shadow-black bg-[#9CA3AF]/10 h-[50px] text-white rounded-2xl ring-1 ring-black/20'>Get In Touch</Link>
 
                             </div>
                         </div>

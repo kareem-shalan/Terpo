@@ -27,8 +27,7 @@ export default function Navbar() {
                 {/* Desktop Navigation Links */}
                 <nav className='hidden md:flex gap-4 text-white text-lg font-bold z-20'>
                     <NavLink to={'/home'} className={({ isActive }) => isActive ? 'text-purple-400 underline' : 'hover:text-purple-300 transition-colors'}>Home</NavLink>
-                    <NavLink to={'/About'} className={({ isActive }) => isActive ? 'text-purple-400 underline' : 'hover:text-purple-300 transition-colors'}>About</NavLink>
-                    <NavLink to={'/Services'} className={({ isActive }) => isActive ? 'text-purple-400 underline' : 'hover:text-purple-300 transition-colors'}>Services</NavLink>
+                    <NavLink to={'/Cars'} className={({ isActive }) => isActive ? 'text-purple-400 underline' : 'hover:text-purple-300 transition-colors'}>Cars</NavLink>
                     <NavLink to={'/Contact'} className={({ isActive }) => isActive ? 'text-purple-400 underline' : 'hover:text-purple-300 transition-colors'}>Contact</NavLink>
                 </nav>
 
